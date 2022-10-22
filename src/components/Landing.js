@@ -266,9 +266,7 @@ const Landing = () => {
       </div>
 
       <div
-        className={`flex h-full w-full   items-start  py-4  ${
-          windowSize > windowBreakPoint && "px-2"
-        } `}
+        className={`flex h-full w-full   items-start  py-4 px-2 `}
       >
         <Split
           className={` 
@@ -284,7 +282,7 @@ const Landing = () => {
           direction={windowSize < windowBreakPoint ? "vertical" : "horizontal"}
         >
           <div
-            className={`${
+            className={` ${
               windowSize < windowBreakPoint ? "w-full h-screen" : ""
             }  flex flex-col  justify-start items-end`}
           >
