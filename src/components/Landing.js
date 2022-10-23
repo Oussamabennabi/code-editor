@@ -265,9 +265,7 @@ const Landing = () => {
         </div>
       </div>
 
-      <div
-        className={`flex h-full w-full   items-start  py-4 px-2 `}
-      >
+      <div className={`flex h-full w-full   items-start  py-4 px-2 `}>
         <Split
           className={` 
           split w-full  flex ${
@@ -316,6 +314,14 @@ const Landing = () => {
           </div>
         </Split>
       </div>
+      <footer>
+        <small className="text-center">
+          coded by oussama bennabi,inspired by{" "}
+          <a href="https://github.com/manuarora700">
+            manuarora700
+          </a>
+        </small>
+      </footer>
     </>
   );
 };
