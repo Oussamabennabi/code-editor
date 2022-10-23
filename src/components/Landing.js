@@ -314,12 +314,10 @@ const Landing = () => {
           </div>
         </Split>
       </div>
-      <footer>
+      <footer className="px-2">
         <small className="text-center">
           coded by oussama bennabi,inspired by{" "}
-          <a href="https://github.com/manuarora700">
-            manuarora700
-          </a>
+          <a href="https://github.com/manuarora700">manuarora700</a>
         </small>
       </footer>
     </>
